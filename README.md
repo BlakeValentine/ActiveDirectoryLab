@@ -1,8 +1,5 @@
 <h1>Running Active Directory | Adding Bulk Users with Powershell</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
- [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
 Hey there! In today's lab, we're going to dive into creating your very own Active Directory home lab using Oracle VirtualBox. It's like building your own little digital playground! This hands-on experience will give you a better grasp of how Active Directory works in Windows. I recommend going through this a couple of times to really get the workflow. Don't hesitate to reach out if you've got any questions – I'm here to help!
 <br />
