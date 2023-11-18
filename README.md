@@ -57,10 +57,17 @@ Launch the VM. When prompted open the iso file for Server 2019:  <br/>
 Install Windows Server 2019:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />cc
+<br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <!--
  ```diff
 - text in red
