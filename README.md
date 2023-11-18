@@ -51,12 +51,15 @@ Configure VM Network Settings. We are setting up two NICs for this lab. One is g
 <br />
 <br />
 Launch the VM. When prompted open the iso file for Server 2019:  <br/>
-<img src="https://i.imgur.com/SGmY2qG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6LiaH7V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
+Install Windows Server 2019:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<br />
+<br />cc
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <!--
  ```diff
