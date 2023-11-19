@@ -161,68 +161,64 @@ Test your new admin account by signing out and trying to sign in with the creden
 <p align="center">
 When we create our Windows 10 client, this will allow us to connect to the internet through the domain controller. Select "Add Roles and Features". 
  <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rRIM1Mj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Install remote access and routing.
- <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/kmjPpJg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Close the installation wizard when finished.<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Close the installation wizard when finished.
+<img src="https://i.imgur.com/dAdQIE2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Go to tools in the top right corner.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hJOP1xy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Scroll down to routing and remote access.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xDEj6G3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 We’ll now configure the Domain Controller.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wXlC1sr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  Select the external NIC as the public interface to connect to the internet.
- <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/Th5D34A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
 <h2>Now it’s time to set up a DHCP Server</h2>
 
 <p align="center">
 Go back to Add Roles and Features.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rRIM1Mj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Install DHCP.
  <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zP8K5Hc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Go to tools in the top right corner.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select DHCP.
-<br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go to tools in the top right corner and select DHCP.
+<img src="https://i.imgur.com/fsdCzYK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In DHCP Control Panel select the Domain Controller.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hC8c1CE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In the drop-down menu, right-click IPV4 and select New Scope.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RBnM0zr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Use the details from the configuration chart and proceed through the wizard.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MMFuccg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Authorize
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/45tCeH9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h2>Running our Powershell Script</h2>
 
