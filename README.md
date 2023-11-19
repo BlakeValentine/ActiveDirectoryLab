@@ -114,7 +114,7 @@ Select the yellow status notification button to continue to the post-deployment 
 <img src="https://i.imgur.com/J7M9P8p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Add a new forest and complete the configuration.
+Add a new forest, specify the domain name, and complete the configuration.
 <img src="https://i.imgur.com/6j3VMeq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
