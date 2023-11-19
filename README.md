@@ -123,7 +123,7 @@ The computer will now restart.
 <br />
 <br />
 Now we’ll create our own dedicated admin account. Open Active Directory Users and Groups.
- <br />
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -139,10 +139,12 @@ Name the Organizational Unit _ADMINS.
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Start -> Windows Administrative Tools -> Active Directory Users and Computers.<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Start -> Windows Administrative Tools -> Active Directory Users and Computers.
+<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create a new user account.
+Create a new user account. 
+ <br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -162,6 +164,7 @@ Test your new admin account by signing out and trying to sign in with the creden
 
 <p align="center">
 When we create our Windows 10 client, this will allow us to connect to the internet through the domain controller. Select "Add Roles and Features". 
+ <br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -190,12 +193,13 @@ We’ll now configure the Domain Controller.
 <h2>Now it’s time to set up a DHCP Server</h2>
 
 <p align="center">
-
 Go back to Add Roles and Features.
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Install DHCP.
+ <br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -204,6 +208,7 @@ Go to tools in the top right corner.
 <br />
 <br />
 Select DHCP.
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -220,13 +225,12 @@ Use the details from the configuration chart and proceed through the wizard.
 <br />
 <br />
 Authorize
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h2>Running our Powershell Script</h2>
 
 <p align="center">
-
-
 A quick configuration change will let us browse the internet from the domain controller. NOTE - Never do this in a production environment. It’s okay for this lab.
 <br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -262,6 +266,7 @@ Click on start and then go to Windows PowerShell, select Windows PowerShell ISE,
 <br />
 <br />
 Go to Open.
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -282,6 +287,7 @@ Change the directory to the folder that the script is actually housed in.
 <br />
 <br />
 Hit Run.
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -290,17 +296,18 @@ Check Active Directory, and you should notice a ton of new users.
 
 <h2>Creating our Client VM</h2>
 
-<p align="center">
- 
+<p align="center"
 Go to VirtualBox.
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Create a new VM.
+<br>
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Name it Client1.
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -317,6 +324,7 @@ Complete the installation of Windows 10.
 <br />
 <br />
 Open command prompt.
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -325,14 +333,17 @@ Ipconfig - Check for default gateway.
 <br />
 <br />
 Ping to the internet.
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Rename the PC Client1.
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Join the PC to the domain.
+<br />
 <img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
