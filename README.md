@@ -122,43 +122,39 @@ The computer will now restart.
 <img src="https://i.imgur.com/RWlLQsa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Now we’ll create our own dedicated admin account. Open Active Directory Users and Groups.
+Now we’ll create our own dedicated admin account. Open Active Directory Users and Groups. Start -> Windows Administrative Tools -> Active Directory Users and Computers.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VaeVgDW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select our newly created domain. 
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/468HItR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 We’ll create a new Organizational Unit for our dedicated admin account.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QmHwJpP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Name the Organizational Unit _ADMINS.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Start -> Windows Administrative Tools -> Active Directory Users and Computers.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QTGkzr4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Create a new user account. 
  <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aJnXQjo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the new user account -> Properties -> Member of -> Add.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XHUNEly.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Add to “Domain Admins” group.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bIIWGBU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Test your new admin account by signing out and trying to sign in with the credentials you’ve created.
- <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/XtKWlH3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h2>Next, we’ll be installing RAS / NAT.</h2>
 
