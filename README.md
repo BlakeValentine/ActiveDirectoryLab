@@ -185,6 +185,7 @@ We’ll now configure the Domain Controller.
 <br />
 <br />
  Select the external NIC as the public interface to connect to the internet.
+<br />
  <img src="https://i.imgur.com/Th5D34A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
 <h2>Now it’s time to set up a DHCP Server</h2>
