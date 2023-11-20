@@ -262,7 +262,7 @@ Go to Open.
 <img src="https://i.imgur.com/SvZph5d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Open the Powershell script on the desktop
+Open the Powershell script on the desktop. You can make changes to the script to choose your own default password.
 <img src="https://i.imgur.com/BhmuC7q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -292,56 +292,57 @@ Go to VirtualBox.
 <br />
 Create a new VM.
 <br>
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ltPrUvP.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Name it Client1.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LhvLdTO.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 For the network - Instead of using NAT, we’re going to click internal. This machine will receive a DHCP address from the domain controller.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jbnVtn9.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Start the virtual machine loading the Windows 10 ISO.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Start the virtual machine loading the Windows 10 ISO. We'll be using the Pro version.
+<br />
+<img src="https://i.imgur.com/ZZcrU6j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Complete the installation of Windows 10.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EAMqte4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Open command prompt.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/41lY9P4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Ipconfig - Check for default gateway.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wHUfyfk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Ping to the internet.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/piRxDWu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Rename the PC Client1.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SNrCWyi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Join the PC to the domain.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/q4c9IDO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Log in with one of the newly created user accounts.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CM1Sk9q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 You have officially completed the lab! Great job.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Aeqw2GF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
