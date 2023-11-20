@@ -225,66 +225,63 @@ Authorize
 <p align="center">
 A quick configuration change will let us browse the internet from the domain controller. NOTE - Never do this in a production environment. It’s okay for this lab.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Y8ykqcY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Click configure this local server.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Y8ykqcY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Disable internet explorer enhanced security.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8bZ8RoZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Paste link for PowerShell user generator script.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5blA9s9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Extract the script to the desktop.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ujNzAIu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In the folder, you will see a plain txt file and the PowerShell script.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JHbUhFF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 You can add your name to the list. Then save and close.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bsQQUsb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Click on start and then go to Windows PowerShell, select Windows PowerShell ISE, more, and run as administrator.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TjdYIeq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Go to Open.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SvZph5d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Open the Powershell script on the desktop
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BhmuC7q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-By default, there is a security feature you must get around to complete this lab.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter set-execution policy unrestricted.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+By default, there is a security feature you must get around to complete this lab. Enter set-execution policy unrestricted.
+ <br />
+<img src="https://i.imgur.com/bcP7i7u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Change the directory to the folder that the script is actually housed in.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aN2aU36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Hit Run.
 <br />
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cQCvoZy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Check Active Directory, and you should notice a ton of new users.
-<img src="https://i.imgur.com/4OIej2b.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wKFOVLe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h2>Creating our Client VM</h2>
 
