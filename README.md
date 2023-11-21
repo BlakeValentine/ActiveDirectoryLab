@@ -69,6 +69,7 @@ Congratulations! You've installed Windows Server 2019. Navigate to Devices and s
 <br />
 <br />
 In File Explorer, you can access the CD Drive to launch the Guest Additions installer.
+ <br />
 <img src="https://i.imgur.com/dpi2U6T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -101,7 +102,8 @@ We will now install Active Directory Domain Services.
 <img src="https://i.imgur.com/Hoh5SxT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-This installation wizard will be used often as we add roles to the Domain Controller. 
+This installation wizard will be used often as we add roles to the Domain Controller.
+ <br />
 <img src="https://i.imgur.com/vloZoCQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -115,6 +117,7 @@ Select the yellow status notification button to continue to the post-deployment 
 <br />
 <br />
 Add a new forest, specify the domain name, and complete the configuration.
+ <br />
 <img src="https://i.imgur.com/6j3VMeq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -214,6 +217,7 @@ In the drop-down menu, right-click IPV4 and select New Scope.
 <br />
 <br />
 Use the details from the configuration chart and proceed through the wizard.
+ <br />
 <img src="https://i.imgur.com/MMFuccg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
