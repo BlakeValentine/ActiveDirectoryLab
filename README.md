@@ -1,8 +1,11 @@
 <h1>Running Active Directory | Adding Bulk Users with Powershell</h1>
 
 <h2>Description</h2>
-Hey there! In today's lab, we're going to dive into creating your very own Active Directory home lab using Oracle VirtualBox. It's like building your own little digital playground! This hands-on experience will give you a better grasp of how Active Directory works in Windows. 
+<body>
+<p>Greetings! In this lab, I'll guide you through the process of setting up your own Active Directory home lab using Oracle VirtualBox. We'll create two virtual machines—a domain controller and a "client PC"—configure TCP/IP addressing, install Active Directory, set up RAS/NAT, and configure the DHCP server for our domain controller. We'll then dive into running a PowerShell script to bulk create users for testing on our client PC.</p>
 <br />
+<p>Think of it as constructing your own small office environment! This hands-on experience is designed to provide you with a deeper understanding of how Active Directory functions in the Windows environment.</p>
+</body> <br />
 
 
 <h2>Platforms Used Used</h2>
